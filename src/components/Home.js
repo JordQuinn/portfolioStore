@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
-import image from '../images/image1.jpg'
+import image from '../styles/images/image1.jpg'
 
 class Home extends Component {
 	render () {

@@ -11,7 +11,7 @@ class DogCostume extends Component {
 					{dogData.map((item, i) => (
 						<div className='dogWrap' key={"item" + i}>
 							<h3>{item.name}</h3>
-							<div>{item.image}</div>
+							<div><img className="allimages" src={item.img} /></div>
 							<div> {item.title} <br/> {item.price}</div>
 							<div> <a href={item.link}>Learn More</a></div>
 
